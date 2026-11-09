@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.dfedarchuk/allr",
+  "title": "ALLR Motorcycle Gear Prices",
+  "description": "Compare motorcycle gear prices by landed cost (price, shipping, duty, tax) for CA, US, EU and UK.",
+  "websiteUrl": "https://allr.io/developers",
+  "version": "1.0.1",
+  "icons": [
+    { "src": "https://allr.io/icon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] },
+    { "src": "https://allr.io/apple-icon", "mimeType": "image/png", "sizes": ["180x180"] }
+  ],
+  "repository": { "url": "https://github.com/dfedarchuk/allr-mcp", "source": "github" },
+  "remotes": [
+    { "type": "streamable-http", "url": "https://allr.io/mcp" }
+  ]
+}
